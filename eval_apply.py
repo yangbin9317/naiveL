@@ -122,6 +122,9 @@ special_form = {
     Symbol('兰姆达'): _lambda,
     Symbol('定义'): define,
     Symbol('组合'): cons,
+
+    Symbol('赋能'): define,
+    Symbol('细分'): _if,
 }
 
 def is_special_form(form: Symbol) -> bool:
